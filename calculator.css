@@ -1,0 +1,59 @@
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(7, 13, 39);
+}
+.container{
+    background-color: white;
+}
+.heading{
+    color:rgb(4, 4, 149);
+    background-color: rgb(223, 125, 6);
+    font-family:sans-serif;
+    font-size: 50px;
+    padding: 10px;
+}
+.input input{
+    width:600px;
+    margin:10px;
+    gap:3px
+    
+}
+.action button{
+    color:white;
+    width:100px;
+    padding:10px;
+    margin:10px;
+    font-family:sans-serif;
+    font-size: 15px;
+    cursor:pointer;
+    border:none;
+}
+.add{
+    background-color: red;
+}
+.subtract{
+    background-color:green;
+}
+.multiply{
+    background-color:purple;
+}
+.divide{
+    background-color:blue;
+}
+.reset{
+    background-color:rgb(255, 0, 183);
+}
+.result{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color:rgb(4, 4, 149);
+    background-color: yellow;
+    font-size:25px;
+    padding:10px;
+    font-family: sans-serif;
+    height:50px;
+    
+}
